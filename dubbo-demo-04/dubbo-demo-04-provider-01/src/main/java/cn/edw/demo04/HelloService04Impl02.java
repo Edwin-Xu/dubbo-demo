@@ -10,6 +10,12 @@ import org.apache.dubbo.config.annotation.DubboService;
 @DubboService
 public class HelloService04Impl02 implements HelloService {
     public String hello(String name, String msg) {
+
+        try {
+            Thread.sleep(1500);
+        }catch (Exception e){
+
+        }
         return "From Provider-02: hello" + name + ", " + msg;
     }
 
