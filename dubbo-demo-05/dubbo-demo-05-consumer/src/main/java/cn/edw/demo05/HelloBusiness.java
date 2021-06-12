@@ -20,7 +20,8 @@ public class HelloBusiness {
     @DubboReference(loadbalance = "roundrobin",
             check = false,
             retries = 2,
-            cluster = "failover")
+            cluster = "failover",
+            version = "v1.0.0")
     private HelloService helloService;
 
     public void sayHi(String name, String msg){

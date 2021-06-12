@@ -7,7 +7,7 @@ import org.apache.dubbo.config.annotation.DubboService;
  * @author Edwin Xu
  * @date 5/22/2021 10:24 PM.
  */
-@DubboService
+@DubboService(version = "v1.0.0")
 public class HelloServiceImpl implements HelloService {
     public String hello(String name, String msg) {
         return "hello, " + name + ", " + msg;
