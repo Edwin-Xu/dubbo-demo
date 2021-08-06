@@ -1,0 +1,16 @@
+server:
+  port: 8882
+spring:
+  application:
+    name: dubbo-demo-04-consumer-01
+dubbo:
+  application:
+    name: dubbo-demo-04-consumer-01
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  # @DubboReference可以设置负载均衡，如果把协议端口写死的话。。。
+  # 法爷写死也没用，@DubboReference配置的优先级比yml中的配置优先级高
+  protocol:
+    name: dubbo
+    port: 2000
+

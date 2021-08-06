@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://code.alibabatech.com/schema/dubbo
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd ">
+    <!--
+        服务消费者配置
+    -->
+
+    <!--定义名称-->
+    <dubbo:application name="dubbo-demo-01-consumer"/>
+    <!--定义注册中心-->
+    <dubbo:registry address="zookeeper://127.0.0.1:2181"/>
+    <!--定义协议-->
+    <dubbo:protocol id="dubbo" name="dubbo" port="20088"/>
+    <!--定义引用的服务：只需要声明接口，dubbo自己通过负载均衡等各种策略选择一种实现，————面向接口代理-->
+    <!--不对，这里手动配置的方式必须要手动指定使用哪个Bean，即ID指向哪个Bean-->
+    <dubbo:reference id="helloServiceImpl" interface="cn.edw.api.HelloService" />
+</beans>
+
+
+
+

@@ -1,0 +1,17 @@
+# 这个端口其实不用，因为这不是Web APP，没有占用端口，只有Dubbo占用了端口
+#server:
+#  port: 8881
+
+spring:
+  application:
+    name: dubbo-demo-04-provider-01
+
+dubbo:
+  application:
+    name: dubbo-demo-04-provider-01
+  registry:
+    address: zookeeper://localhost:2181
+#  protocol:
+#    name: dubbo
+#    port: 20000
+

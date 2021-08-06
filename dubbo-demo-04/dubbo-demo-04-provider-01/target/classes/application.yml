@@ -1,0 +1,17 @@
+#server:
+#  port: 8881
+
+spring:
+  application:
+    name: dubbo-demo-04-provider-02
+
+dubbo:
+  application:
+    name: dubbo-demo-04-provider-02
+  registry:
+    address: zookeeper://localhost:2181
+  protocol:
+    name: dubbo
+    # 如果和其他provider使用同一个端口，会怎么样? 当然跑不起来
+    port: 20001
+
