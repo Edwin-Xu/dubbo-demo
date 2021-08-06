@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< HEAD
         <module name="dubbo-demo-03-provider" />
         <module name="dubbo-demo-03-consumer" />
         <module name="dubbo-demo-04-provider-01" />
@@ -19,6 +20,21 @@
         <module name="dubbo-demo-05-consumer" />
         <module name="dubbo-demo-02-consumer" />
         <module name="dubbo-api" />
+=======
+        <module name="dubbo-demo-01-consumer" />
+        <module name="dubbo-api" />
+        <module name="dubbo-demo-03-provider" />
+        <module name="dubbo-demo-02-provider" />
+        <module name="dubbo-demo-01-provider" />
+        <module name="dubbo-demo-02-consumer" />
+        <module name="dubbo-learning" />
+        <module name="dubbo-demo-05-provider" />
+        <module name="dubbo-demo-04-provider" />
+        <module name="dubbo-demo-05-consumer" />
+        <module name="dubbo-demo-04-consumer" />
+        <module name="dubbo-demo-03-consumer" />
+        <module name="dubbo-demo-04-provider-01" />
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

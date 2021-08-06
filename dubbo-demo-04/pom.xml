@@ -35,6 +35,10 @@
             <groupId>org.apache.dubbo</groupId>
             <artifactId>dubbo-spring-boot-starter</artifactId>
             <version>2.7.8</version>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
         </dependency>
         <!--  zk客户端  -->
         <dependency>

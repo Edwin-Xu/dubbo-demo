@@ -38,6 +38,11 @@
             <artifactId>dubbo</artifactId>
             <version>2.7.8</version>
         </dependency>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
@@ -69,6 +74,11 @@
             <artifactId>servlet-api</artifactId>
             <version>2.5</version>
         </dependency>
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
     </dependencies>
 
 
@@ -97,6 +107,10 @@ dependencyManagement里只是声明依赖，并不实现引入，因此子项目
             </dependency>
         </dependencies>
     </dependencyManagement>
+<<<<<<< HEAD
 </project>
 
 
+=======
+</project>
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2

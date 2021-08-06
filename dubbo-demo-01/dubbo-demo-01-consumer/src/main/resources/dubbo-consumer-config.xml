@@ -18,6 +18,10 @@
     <!--定义引用的服务：只需要声明接口，dubbo自己通过负载均衡等各种策略选择一种实现，————面向接口代理-->
     <!--不对，这里手动配置的方式必须要手动指定使用哪个Bean，即ID指向哪个Bean-->
     <dubbo:reference id="helloServiceImpl" interface="cn.edw.api.HelloService" />
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
 </beans>
 
 

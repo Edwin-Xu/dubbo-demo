@@ -2,13 +2,20 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
+<<<<<<< HEAD
     <value-preview-text-wrapping value="false" />
+=======
+    <value-preview-text-wrapping value="true" />
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
     <export-instructions>
       <create-header value="true" />
+<<<<<<< HEAD
       <friendly-headers value="false" />
+=======
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
       <quote-values-containing-separator value="true" />
       <quote-all-values value="false" />
       <value-separator value="" />
@@ -32,9 +39,12 @@
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
   </component>
+<<<<<<< HEAD
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
   </component>
+=======
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
   <component name="DBNavigator.Project.MethodExecutionManager">
     <method-browser />
     <execution-history>
@@ -113,6 +123,11 @@
           <object-type name="TABLE" enabled="true" />
           <object-type name="VIEW" enabled="true" />
           <object-type name="MATERIALIZED VIEW" enabled="true" />
+<<<<<<< HEAD
+=======
+          <object-type name="NESTED TABLE" enabled="false" />
+          <object-type name="COLUMN" enabled="false" />
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
           <object-type name="INDEX" enabled="true" />
           <object-type name="CONSTRAINT" enabled="true" />
           <object-type name="DATASET TRIGGER" enabled="true" />
@@ -123,6 +138,11 @@
           <object-type name="FUNCTION" enabled="true" />
           <object-type name="PACKAGE" enabled="true" />
           <object-type name="TYPE" enabled="true" />
+<<<<<<< HEAD
+=======
+          <object-type name="TYPE ATTRIBUTE" enabled="false" />
+          <object-type name="ARGUMENT" enabled="false" />
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
           <object-type name="DIMENSION" enabled="false" />
           <object-type name="CLUSTER" enabled="false" />
           <object-type name="DBLINK" enabled="true" />
@@ -190,10 +210,20 @@
           <content-type name="JSPx" enabled="true" />
           <content-type name="Groovy" enabled="true" />
           <content-type name="FTL" enabled="true" />
+<<<<<<< HEAD
           <content-type name="GSP" enabled="true" />
           <content-type name="VTL" enabled="true" />
           <content-type name="AIDL" enabled="true" />
           <content-type name="YAML" enabled="true" />
+=======
+          <content-type name="TML" enabled="true" />
+          <content-type name="GSP" enabled="true" />
+          <content-type name="ASP" enabled="true" />
+          <content-type name="VTL" enabled="true" />
+          <content-type name="AIDL" enabled="true" />
+          <content-type name="YAML" enabled="true" />
+          <content-type name="Flex" enabled="true" />
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
           <content-type name="Manifest" enabled="true" />
         </content-types>
       </qualified-text-editor>

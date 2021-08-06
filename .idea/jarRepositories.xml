@@ -8,6 +8,7 @@
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
+<<<<<<< HEAD
       <option name="name" value="Central Repository" />
       <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public/" />
     </remote-repository>
@@ -18,6 +19,8 @@
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
+=======
+>>>>>>> 3c3240e7042786af42c1f2549ff843b59e31afb2
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
